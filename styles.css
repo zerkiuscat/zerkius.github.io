@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#youtube-videos, #steam-stats {
+    margin-top: 20px;
+}
+
+.video {
+    margin-bottom: 20px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 315px;
+}
